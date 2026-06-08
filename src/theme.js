@@ -3,27 +3,27 @@ import { createTheme } from '@mui/material/styles'
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#C8432B',
-      light: '#D4624E',
-      dark: '#A83522',
-      contrastText: '#FAF3E8',
+      main: '#DCED1E',
+      light: '#E8F540',
+      dark: '#C8D818',
+      contrastText: '#1A1A2E',
     },
     secondary: {
-      main: '#8B2028',
-      light: '#A83535',
-      dark: '#6A1820',
-      contrastText: '#FAF3E8',
+      main: '#2D45D4',
+      light: '#4D62E0',
+      dark: '#1A2EAA',
+      contrastText: '#FFFFFF',
     },
     background: {
-      default: '#F5EDD6',
-      paper: '#FAF3E8',
+      default: '#F5F5EC',
+      paper: '#FFFFFF',
     },
     text: {
-      primary: '#1A1614',
-      secondary: '#6B4C3B',
-      disabled: '#9B8B7E',
+      primary: '#1A1A2E',
+      secondary: '#2D2D2D',
+      disabled: '#888888',
     },
-    divider: '#D4C4A8',
+    divider: '#DEDED4',
   },
   typography: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
