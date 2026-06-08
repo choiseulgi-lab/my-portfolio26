@@ -29,7 +29,7 @@ function ProjectsSection() {
 
         <Grid container spacing={3} justifyContent="center">
           {placeholderProjects.map((project) => (
-            <Grid item xs={12} sm={6} md={4} key={project.id}>
+            <Grid size={{ xs: 12, sm: 6, md: 4 }} key={project.id}>
               <Card
                 sx={{
                   backgroundColor: '#F5EDD6',
